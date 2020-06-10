@@ -9,19 +9,19 @@
                         <form action="#">
 							<div class="group-input">
 								<label for="name">User Name</label>
-								<input type="text" name="name" id="name" placeholder="Your Name" required/>
+								<input type="text" name="name" id="name" required/>
 							</div>
                             <div class="group-input">
                                 <label for="email">Email address *</label>
-                                <input type="email" id="username">
+                                <input type="email" id="email">
                             </div>
                             <div class="group-input">
-                                <label for="pass">Password *</label>
-                                <input type="text" id="pass">
+                                <label for="password">Password *</label>
+                                <input type="password" id="password">
                             </div>
                             <div class="group-input">
                                 <label for="con-pass">Confirm Password *</label>
-                                <input type="text" id="con-pass">
+                                <input type="password" id="con-pass">
 							</div>
 							<div class="group-input">
 								<input type="file" id="img_up" style="display: none">

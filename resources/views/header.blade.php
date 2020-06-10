@@ -4,11 +4,11 @@
                 <div class="ht-left">
                     <div class="mail-service">
                         <i class=" fa fa-envelope"></i>
-                        hello.colorlib@gmail.com
+                        ShibaFood@gmail.com
                     </div>
                     <div class="phone-service">
                         <i class=" fa fa-phone"></i>
-                        +65 11.188.888
+                        +88 66 88 66
                     </div>
                 </div>
                 <div class="ht-right">
@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-2">
                         <div class="logo">
-                            <a href="./index.html">
+                            <a href="{{route('HomePage')}}">
                                 <img src="../fashi/img/logo.png" alt="">
                             </a>
                         </div>
