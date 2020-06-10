@@ -36,20 +36,20 @@
                     <div class="col-lg-2 col-md-2">
                         <div class="logo">
                             <a href="{{route('HomePage')}}">
-                                <img src="../fashi/img/logo.png" alt="">
+                                <img src="../fashi/img/shiba_food.jpg" style="height: 90px; weight: 90px;" alt="">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <div class="advanced-search">
-                            <button type="button" class="category-btn">All Categories</button>
+                            <button type="button" class="category-btn">Filter</button>
                             <div class="input-group">
                                 <input type="text" placeholder="What do you need?">
                                 <button type="button"><i class="ti-search"></i></button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-right col-md-3">
+            <!--        <div class="col-lg-3 text-right col-md-3">
                         <ul class="nav-right">
                             <li class="heart-icon">
                                 <a href="#">
@@ -107,11 +107,11 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+-->     </div>
         </div>
         <div class="nav-item">
             <div class="container">
-                <div class="nav-depart">
+    <!--            <div class="nav-depart">
                     <div class="depart-btn">
                         <i class="ti-menu"></i>
                         <span>All departments</span>
@@ -126,11 +126,11 @@
                             <li><a href="#">Brand Outdoor Apparel</a></li>
                         </ul>
                     </div>
-                </div>
+                </div>-->
                 <nav class="nav-menu mobile-menu">
                     <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./shop.html">Shop</a></li>
+                        <li class="active"><a href="{{route('HomePage')}}">Home</a></li>
+    <!--                    <li><a href="./shop.html">Shop</a></li>
                         <li><a href="#">Collection</a>
                             <ul class="dropdown">
                                 <li><a href="#">Men's</a></li>
@@ -138,7 +138,7 @@
                                 <li><a href="#">Kid's</a></li>
                             </ul>
                         </li>
-                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./blog.html">Blog</a></li> -->
                         <li><a href="./contact.html">Contact</a></li>
                         <li><a href="#">Pages</a>
                             <ul class="dropdown">

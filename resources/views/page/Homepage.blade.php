@@ -1,16 +1,15 @@
 @extends('home')
 @section('content')
-<section class="hero-section">
+<section class="hero-section" Style="padding-top:10px">
         <div class="hero-items owl-carousel">
-            <div class="single-hero-items set-bg" data-setbg="../fashi/img/hero-1.jpg">
+            <div class="single-hero-items set-bg" data-setbg="../fashi/img/nhahang4.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
-                            <span>Bag,kids</span>
-                            <h1>Black friday</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore</p>
-                            <a href="#" class="primary-btn">Shop Now</a>
+                            <span>Retaurant</span>
+                            <h1 Style="color: white">Black friday</h1>
+                           
+                            <a href="#" class="primary-btn">View Now</a>
                         </div>
                     </div>
                     <div class="off-card">
@@ -18,15 +17,15 @@
                     </div>
                 </div>
             </div>
-            <div class="single-hero-items set-bg" data-setbg="../fashi/img/hero-2.jpg">
+            <div class="single-hero-items set-bg" data-setbg="../fashi/img/nhahang_2.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
-                            <span>Bag,kids</span>
-                            <h1>Black friday</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            <span>Retaurant</span>
+                            <h1 Style="color: white"> Black friday</h1>
+                            <p Style="color: white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore</p>
-                            <a href="#" class="primary-btn">Shop Now</a>
+                            <a href="#" class="primary-btn">View Now</a>
                         </div>
                     </div>
                     <div class="off-card">
@@ -42,30 +41,23 @@
     <div class="banner-section spad">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-6" >
                     <div class="single-banner">
-                        <img src="../fashi/img/banner-1.jpg" alt="">
+                        <img src="../fashi/img/drink_2.jpg"  alt="">
                         <div class="inner-text">
-                            <h4>Men’s</h4>
+                            <h4>Dink’s</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-6">
                     <div class="single-banner">
-                        <img src="../fashi/img/banner-2.jpg" alt="">
+                        <img src="../fashi/img/food_1.png" alt="">
                         <div class="inner-text">
-                            <h4>Women’s</h4>
+                            <h4>Food’s</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="single-banner">
-                        <img src="../fashi/img/banner-3.jpg" alt="">
-                        <div class="inner-text">
-                            <h4>Kid’s</h4>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -76,24 +68,24 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="product-large set-bg" data-setbg="../fashi/img/products/women-large.jpg">
-                        <h2>Women’s</h2>
+                    <div class="product-large set-bg" data-setbg="../fashi/img/products/food_img.jpg">
+                        <h2>Food's</h2>
                         <a href="#">Discover More</a>
                     </div>
                 </div>
                 <div class="col-lg-8 offset-lg-1">
                     <div class="filter-control">
                         <ul>
-                            <li class="active">Clothings</li>
-                            <li>HandBag</li>
+                            <li class="active">Food</li>
+                       <!--     <li>HandBag</li>
                             <li>Shoes</li>
-                            <li>Accessories</li>
+                            <li>Accessories</li>-->
                         </ul>
                     </div>
                     <div class="product-slider owl-carousel">
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/women-1.jpg" alt="">
+                                <img src="../fashi/img/products/ramen_food.jpg" alt="">
                                 <div class="sale">Sale</div>
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
@@ -105,7 +97,7 @@
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Coat</div>
+                                <div class="catagory-name">ramen</div>
                                 <a href="#">
                                     <h5>Pure Pineapple</h5>
                                 </a>
@@ -117,7 +109,7 @@
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/women-2.jpg" alt="">
+                                <img src="../fashi/img/products/takoyaki_food.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -128,7 +120,7 @@
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Shoes</div>
+                                <div class="catagory-name">Takoyaki</div>
                                 <a href="#">
                                     <h5>Guangzhou sweater</h5>
                                 </a>
@@ -139,7 +131,7 @@
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/women-3.jpg" alt="">
+                                <img src="../fashi/img/products/sushi_food.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -150,7 +142,7 @@
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
+                                <div class="catagory-name">Su shi</div>
                                 <a href="#">
                                     <h5>Pure Pineapple</h5>
                                 </a>
@@ -161,7 +153,7 @@
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/women-4.jpg" alt="">
+                                <img src="../fashi/img/products/udon_food.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -172,7 +164,7 @@
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
+                                <div class="catagory-name">Udon</div>
                                 <a href="#">
                                     <h5>Converse Shoes</h5>
                                 </a>
@@ -189,7 +181,7 @@
     <!-- Women Banner Section End -->
 
     <!-- Deal Of The Week Section Begin-->
-    <section class="deal-of-week set-bg spad" data-setbg="../fashi/img/time-bg.jpg">
+<!--    <section class="deal-of-week set-bg spad" data-setbg="../fashi/img/time-bg.jpg">
         <div class="container">
             <div class="col-lg-6 text-center">
                 <div class="section-title">
@@ -222,7 +214,7 @@
                 <a href="#" class="primary-btn">Shop Now</a>
             </div>
         </div>
-    </section>
+    </section>-->
     <!-- Deal Of The Week Section End -->
 
     <!-- Man Banner Section Begin -->
@@ -232,16 +224,16 @@
                 <div class="col-lg-8">
                     <div class="filter-control">
                         <ul>
-                            <li class="active">Clothings</li>
-                            <li>HandBag</li>
+                            <li class="active">Drink</li>
+                   <!--         <li>HandBag</li>
                             <li>Shoes</li>
-                            <li>Accessories</li>
+                            <li>Accessories</li>-->
                         </ul>
                     </div>
                     <div class="product-slider owl-carousel">
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/man-1.jpg" alt="">
+                                <img src="../fashi/img/products/choya.jpg" alt="">
                                 <div class="sale">Sale</div>
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
@@ -253,7 +245,7 @@
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Coat</div>
+                                <div class="catagory-name">choya</div>
                                 <a href="#">
                                     <h5>Pure Pineapple</h5>
                                 </a>
@@ -265,7 +257,7 @@
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="img/products/man-2.jpg" alt="">
+                                <img src="../fashi/img/products/trasua.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -276,7 +268,7 @@
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Shoes</div>
+                                <div class="catagory-name">milk tea</div>
                                 <a href="#">
                                     <h5>Guangzhou sweater</h5>
                                 </a>
@@ -287,7 +279,7 @@
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/man-3.jpg" alt="">
+                                <img src="../fashi/img/products/cafetrung.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -298,7 +290,7 @@
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
+                                <div class="catagory-name">cafe</div>
                                 <a href="#">
                                     <h5>Pure Pineapple</h5>
                                 </a>
@@ -309,7 +301,7 @@
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/man-4.jpg" alt="">
+                                <img src="../fashi/img/products/beer.png" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -320,7 +312,7 @@
                                 </ul>
                             </div>
                             <div class="pi-text">
-                                <div class="catagory-name">Towel</div>
+                                <div class="catagory-name">beer</div>
                                 <a href="#">
                                     <h5>Converse Shoes</h5>
                                 </a>
@@ -332,8 +324,8 @@
                     </div>
                 </div>
                 <div class="col-lg-3 offset-lg-1">
-                    <div class="product-large set-bg m-large" data-setbg="../fashi/img/products/man-large.jpg">
-                        <h2>Men’s</h2>
+                    <div class="product-large set-bg m-large" data-setbg="../fashi/img/products/drink_img.jpg">
+                        <h2>Drink's</h2>
                         <a href="#">Discover More</a>
                     </div>
                 </div>
@@ -341,163 +333,6 @@
         </div>
     </section>
     <!-- Man Banner Section End -->
-
-    <!-- Instagram Section Begin -->
-    <div class="instagram-photo">
-        <div class="insta-item set-bg" data-setbg="../fashi/img/insta-1.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">colorlib_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="../fashi/img/insta-2.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">colorlib_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="../fashi/img/insta-3.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">colorlib_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="../fashi/img/insta-4.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">colorlib_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="../fashi/img/insta-5.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">colorlib_Collection</a></h5>
-            </div>
-        </div>
-        <div class="insta-item set-bg" data-setbg="../fashi/img/insta-6.jpg">
-            <div class="inside-text">
-                <i class="ti-instagram"></i>
-                <h5><a href="#">colorlib_Collection</a></h5>
-            </div>
-        </div>
-    </div>
-    <!-- Instagram Section End -->
-
-    <!-- Latest Blog Section Begin -->
-    <section class="latest-blog spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>From The Blog</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-latest-blog">
-                        <img src="img/latest-1.jpg" alt="">
-                        <div class="latest-text">
-                            <div class="tag-list">
-                                <div class="tag-item">
-                                    <i class="fa fa-calendar-o"></i>
-                                    May 4,2019
-                                </div>
-                                <div class="tag-item">
-                                    <i class="fa fa-comment-o"></i>
-                                    5
-                                </div>
-                            </div>
-                            <a href="#">
-                                <h4>The Best Street Style From London Fashion Week</h4>
-                            </a>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-latest-blog">
-                        <img src="img/latest-2.jpg" alt="">
-                        <div class="latest-text">
-                            <div class="tag-list">
-                                <div class="tag-item">
-                                    <i class="fa fa-calendar-o"></i>
-                                    May 4,2019
-                                </div>
-                                <div class="tag-item">
-                                    <i class="fa fa-comment-o"></i>
-                                    5
-                                </div>
-                            </div>
-                            <a href="#">
-                                <h4>Vogue's Ultimate Guide To Autumn/Winter 2019 Shoes</h4>
-                            </a>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-latest-blog">
-                        <img src="img/latest-3.jpg" alt="">
-                        <div class="latest-text">
-                            <div class="tag-list">
-                                <div class="tag-item">
-                                    <i class="fa fa-calendar-o"></i>
-                                    May 4,2019
-                                </div>
-                                <div class="tag-item">
-                                    <i class="fa fa-comment-o"></i>
-                                    5
-                                </div>
-                            </div>
-                            <a href="#">
-                                <h4>How To Brighten Your Wardrobe With A Dash Of Lime</h4>
-                            </a>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="benefit-items">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="single-benefit">
-                            <div class="sb-icon">
-                                <img src="../fashi/img/icon-1.png" alt="">
-                            </div>
-                            <div class="sb-text">
-                                <h6>Free Shipping</h6>
-                                <p>For all order over 99$</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-benefit">
-                            <div class="sb-icon">
-                                <img src="../fashi/img/icon-2.png" alt="">
-                            </div>
-                            <div class="sb-text">
-                                <h6>Delivery On Time</h6>
-                                <p>If good have prolems</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-benefit">
-                            <div class="sb-icon">
-                                <img src="../fashi/img/icon-1.png" alt="">
-                            </div>
-                            <div class="sb-text">
-                                <h6>Secure Payment</h6>
-                                <p>100% secure payment</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Latest Blog Section End -->
 
     <!-- Partner Logo Section Begin -->
     <div class="partner-logo">
