@@ -17,8 +17,8 @@
                         <select class="language_drop" name="countries" id="countries" style="width:300px;">
                             <option value='yt' data-image="../fashi/img/flag-1.jpg" data-imagecss="flag yt"
                                 data-title="English">English</option>
-                            <option value='yu' data-image="../fashi/img/flag-2.jpg" data-imagecss="flag yu"
-                                data-title="Bangladesh">German </option>
+                            <option value='yu' data-image="../fashi/img/flag-4.png" data-imagecss="flag yu"
+                                data-title="Japanese">Japanese </option>
                         </select>
                     </div>
                     <div class="top-social">
@@ -36,7 +36,7 @@
                     <div class="col-lg-2 col-md-2">
                         <div class="logo">
                             <a href="{{route('HomePage')}}">
-                                <img src="../fashi/img/shiba_food.jpg" style="height: 90px; weight: 90px;" alt="">
+                                <img src="../fashi/img/logo_shiba.png" style="height: 90px; weight: 90px;" alt="">
                             </a>
                         </div>
                     </div>

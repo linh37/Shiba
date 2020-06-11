@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-lg-6" >
                     <div class="single-banner">
-                        <img src="../fashi/img/drink_2.jpg"  alt="">
+                        <img src="../fashi/img/store_img2.jpg"  alt="">
                         <div class="inner-text">
                             <h4>Dink’s</h4>
                         </div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="single-banner">
-                        <img src="../fashi/img/food_1.png" alt="">
+                        <img src="../fashi/img/nhahang_3.jpg" alt="">
                         <div class="inner-text">
                             <h4>Food’s</h4>
                         </div>
@@ -85,8 +85,8 @@
                     <div class="product-slider owl-carousel">
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/ramen_food.jpg" alt="">
-                                <div class="sale">Sale</div>
+                                <img src="../fashi/img/products/nhat2.png" alt="">
+                        <!--        <div class="sale">Sale</div>-->
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -102,14 +102,13 @@
                                     <h5>Pure Pineapple</h5>
                                 </a>
                                 <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
+                                 rate: 3/5
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/takoyaki_food.jpg" alt="">
+                                <img src="../fashi/img/products/nhat3.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -125,13 +124,13 @@
                                     <h5>Guangzhou sweater</h5>
                                 </a>
                                 <div class="product-price">
-                                    $13.00
+                                    rate: 3/5
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/sushi_food.jpg" alt="">
+                                <img src="../fashi/img/products/nhat4.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -147,13 +146,13 @@
                                     <h5>Pure Pineapple</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/udon_food.jpg" alt="">
+                                <img src="../fashi/img/products/nhat1.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -169,7 +168,7 @@
                                     <h5>Converse Shoes</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
@@ -233,7 +232,7 @@
                     <div class="product-slider owl-carousel">
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/choya.jpg" alt="">
+                                <img src="../fashi/img/products/store1.jpg" alt="">
                                 <div class="sale">Sale</div>
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
@@ -250,14 +249,13 @@
                                     <h5>Pure Pineapple</h5>
                                 </a>
                                 <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/trasua.jpg" alt="">
+                                <img src="../fashi/img/products/store2.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -273,13 +271,13 @@
                                     <h5>Guangzhou sweater</h5>
                                 </a>
                                 <div class="product-price">
-                                    $13.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/cafetrung.jpg" alt="">
+                                <img src="../fashi/img/products/store3.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -295,13 +293,13 @@
                                     <h5>Pure Pineapple</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
                         <div class="product-item">
                             <div class="pi-pic">
-                                <img src="../fashi/img/products/beer.png" alt="">
+                                <img src="../fashi/img/products/store4.jpg" alt="">
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
@@ -317,7 +315,7 @@
                                     <h5>Converse Shoes</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
