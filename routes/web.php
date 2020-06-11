@@ -21,9 +21,10 @@ Route::post('/auth', 'UserController@login')->name('auth');
 
 
 Route::get('user', 'UserController@index');
+Route::post('signup', 'PageController@postSignUp');
 
 
-Route::get('index',[
+Route::get('/',[
     'as'=> 'HomePage',
     'uses' => 'PageController@getIndex'
 ]);
@@ -37,6 +38,7 @@ Route::get('signin',[
     'as'=> 'signin',
     'uses' => 'PageController@getSignIn'
 ]);
+Route::post('signin', 'PageController@postSignIn');
 
 /*Route::post('signup',[
     'as'=> 'signup',

@@ -8,12 +8,12 @@
                         <h2>Login</h2>
                         <form action="#">
                             <div class="group-input">
-                                <label for="username">Username or email address *</label>
-                                <input type="text" id="username">
+                                <label for="username">Email address *</label>
+                                <input type="email" id="email">
                             </div>
                             <div class="group-input">
                                 <label for="pass">Password *</label>
-                                <input type="text" id="pass">
+                                <input type="password" id="password">
                             </div>
                             <div class="group-input gi-check">
                                 <div class="gi-more">

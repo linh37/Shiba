@@ -6,25 +6,26 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="register-form">
                         <h2>Register</h2>
-                        <form action="#">
+                        <form method="POST" action="{{ route('signup') }}">
+                            <input type="hidden" name="_token" value="{{csrf_token()}}">
 							<div class="group-input">
 								<label for="name">User Name</label>
 								<input type="text" name="name" id="name" required/>
 							</div>
                             <div class="group-input">
                                 <label for="email">Email address *</label>
-                                <input type="email" id="email">
+                                <input type="email" id="email" name="email">
                             </div>
                             <div class="group-input">
                                 <label for="password">Password *</label>
-                                <input type="password" id="password">
+                                <input type="password" id="password" name="password">
                             </div>
                             <div class="group-input">
                                 <label for="con-pass">Confirm Password *</label>
-                                <input type="password" id="con-pass">
+                                <input type="password" id="con-pass" name="con-pass">
 							</div>
 							<div class="group-input">
-								<input type="file" id="img_up" style="display: none">
+								<input type="file" id="img_up" name="img_up" style="display: none">
 							</div>
 							<div class="group-input">
 								<p id="Up_img" style="cursor: pointer;">Upload Avatar</p>

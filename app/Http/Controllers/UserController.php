@@ -20,9 +20,9 @@ class UserController extends BaseController
     public function index()
     {
         $userRef = null;
-        $userRef = [
-            'name' => 'le.thi.thu',
-            'email' => 'le.thi.thu@sun-asterisk.com',
+        $testData = [
+            'name' => 'le1.thi.hoa',
+            'email' => 'le1.thi.hoa@sun-asterisk.com',
         ];
          try {
             $this->database->getReference('users')->push($testData);
@@ -32,7 +32,7 @@ class UserController extends BaseController
         } catch (Exception $exception) {
             Log::error($exception->getMessage());
         }
-         dd($userRef->getValue());
+         //dd($userRef->getValue());
     }
     public function home(){
         return view('welcome');

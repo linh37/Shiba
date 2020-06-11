@@ -14,6 +14,6 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
     public function __construct(FirebaseService $firebaseService)
     {
         $this->firebase = $firebaseService->firebase;
-        $this->database = $this->firebase->getDatabase();
+        $this->database = $this->firebase->createDatabase();
     }
 }

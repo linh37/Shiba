@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shibafood-3e0d0",
+  "private_key_id": "359ac9834326b5d2a6ea1fa3105324fbc3c42814",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDS6eMqC3xyjWTo\n/sMX5OLFYhbddpbMg8XU39G27g6fUsp86dGbz9Ze9auYEw761z+iHj56mqKVNM9w\nKH0V/jj1Hy/JclfDbxnPy0pwycSGgNfbGmguNejT0zmzJsY2y0sLq04EAr//+NU/\nA/YpLhKmiBUcWKevcOjOWTYODNpkPfXfq4WLL0t3yuzi6865m2uwevpZd7Co1+ph\nKWYC/pH1MuNxA2UZV7BG4dIth8M8a/XEWlWPTZnegFAyIvaldvIaj1s6NlpO6HGO\n5cl0DKfc19Z/jMCjokSelX11SCwdYAGsMdjMYqSJtNPn40BO6Sdy4GWsvXKbgRF0\nOhsDMOlDAgMBAAECggEAH9QzDMZ0o+GUVRhpPw2yw+spxzHHz8T3vHMrIKpBTlLo\nrZF9qUAOulWPF+E8aqduz3Df/eb12oLV5oz9qi2A0UvBDZYHX5NrIkbWt48DbPGR\ntwYqVbBGBX2EC3YHsKoyQOhmWshCywbKwPqV50ta04My0wx1Vc5kxmCD00/7lJKC\nXUU1LWEgzHR1YWHPXRocUX2lRq6TWfmJP2meqrNFfWESHVnBcQbRIh1pGXNtpRDa\nX6tD9YiIcgXEe2YktaAhjJU498iQU3Qu1WoAqIS/mF5e6uQXF8dT6FJQgL4MMzmk\nbvxXcpmCKxZw9J/iTIkuZiVYw/LgsA9xpQtum2fVnQKBgQDsQk1cmVFgaADCKWGr\nn/5DmbMIao8Dj2tPRUXc1k/eWv2upP9jktsF2LkG0aoRW307BXM0OvRmz84FBPX1\n2y/zM/wVyJCPJVUgCrVF4cWfTzK7xZvHWFPRSpem5UtGZhIbWO5S5sy5wVKHv6Hx\nT1b2p27OXDwENhqj5Gq9xBKs3wKBgQDkiW9euugXJ0cBvbk+lk7OkMZPzp4lUmpu\nH5SsRz7hfK011rI/Rg3k4hS+6X7aMHQWQTfSOCbqWe6qEpbhRxY/KnVcU1PiXOde\nx5D2FliLpmDV9lVe61esZitmJ3PtgSQj0ZbZwldJlfeXuYjtl+5MGBtMqBGGjDkg\nCeDcx0MsHQKBgFJBLy/7DRL0grcWszOOi3a7r1JRzyLdLu41XwJo9vuiUEoalfPz\n8B9T+e8+1egfIzWGSzq2/9o/pSmoNX34ZvRUeAKZhoLf64gxUjVXSneRmkc3oGnB\n/cSTJMNtd0y2Qr2Us7zXMBXIEdTDSj16cvuDBZgBEsAgmhvPbb5N4nafAoGBAKPC\ne4Rk6AQXSAFOYtwfNo88HG55fsb9nHgWtyEP2FYZUcCffJBscW5ONlFq3VQZnkWI\nLCi9xdzt3mAN/AGnP6C5mukyaIxux/gZhp1f+8jtyrvmzNu8RdGqUHTd1mscu7nS\n6IZXhNac2JLnBuBBmyb5qy4tzIkeF50GlxN80XxdAoGAfRBVv6WJ2ESrfmA4747f\n/vLmSoiR4vmBgnX8lq8tudEvnZdEWF/eETZJf/UXFl6Wtcw9pGh7tnACS1LlPfXw\nIeEihX6wjTSFdXqsuCFJJ0RD36ikKAy9l6KiEOWv1zzXM0bzCviXHTQ9FyOtUuP9\naOrXvKy63WlP6QcBdc/JT9w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-icdhi@shibafood-3e0d0.iam.gserviceaccount.com",
+  "client_id": "116167804122514069892",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-icdhi%40shibafood-3e0d0.iam.gserviceaccount.com"
+}
