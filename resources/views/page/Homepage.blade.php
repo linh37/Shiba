@@ -102,8 +102,7 @@
                                     <h5>Pure Pineapple</h5>
                                 </a>
                                 <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
+                                 rate: 3/5
                                 </div>
                             </div>
                         </div>
@@ -125,7 +124,7 @@
                                     <h5>Guangzhou sweater</h5>
                                 </a>
                                 <div class="product-price">
-                                    $13.00
+                                    rate: 3/5
                                 </div>
                             </div>
                         </div>
@@ -147,7 +146,7 @@
                                     <h5>Pure Pineapple</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
@@ -169,7 +168,7 @@
                                     <h5>Converse Shoes</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
@@ -250,8 +249,7 @@
                                     <h5>Pure Pineapple</h5>
                                 </a>
                                 <div class="product-price">
-                                    $14.00
-                                    <span>$35.00</span>
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
@@ -273,7 +271,7 @@
                                     <h5>Guangzhou sweater</h5>
                                 </a>
                                 <div class="product-price">
-                                    $13.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
@@ -295,7 +293,7 @@
                                     <h5>Pure Pineapple</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
@@ -317,7 +315,7 @@
                                     <h5>Converse Shoes</h5>
                                 </a>
                                 <div class="product-price">
-                                    $34.00
+                                rate: 3/5
                                 </div>
                             </div>
                         </div>
