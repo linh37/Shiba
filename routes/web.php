@@ -44,3 +44,7 @@ Route::post('signin', 'PageController@postSignIn');
     'as'=> 'signup',
     'uses' => 'PageController@postSignUp'
 ]);*/
+Route::get('search',[
+	'as'=>'search',
+	'uses'=>'PageController@getSearch'
+]);

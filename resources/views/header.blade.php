@@ -42,11 +42,10 @@
                     </div>
                     <div class="col-lg-7 col-md-7">
                         <div class="advanced-search">
-                            <button type="button" class="category-btn">Filter</button>
-                            <div class="input-group">
-                                <input type="text" placeholder="What do you need?">
-                                <button type="button"><i class="ti-search"></i></button>
-                            </div>
+                            <form role= "search" method="get" id="searchform" action="{{route('search')}}">
+                              <input type="text" value="" name="key" id="s" placeholder="Nhập tên nhà hàng"/>
+                              <button type="submit" class="fa fa-search" id="searchsubmit">Tìm</button>  
+                            </form>
                         </div>
                     </div>
             <!--        <div class="col-lg-3 text-right col-md-3">
