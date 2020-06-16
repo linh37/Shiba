@@ -7,6 +7,7 @@ use Carbon\Carbon;
 use Hash;
 use Illuminate\Support\MessageBag;
 use App\Http\Requests\LoginRequest;
+use App\Http\Requests\LogoutRequest;
 use App\Services\UserService;
 
 class PageController extends BaseController
@@ -57,7 +58,11 @@ class PageController extends BaseController
 
         return redirect()->route('HomePage');
     }
-    public function postSignUp(LoginRequest $request){
+    public function postSignUp(LogoutRequest $request, UserService $userService){
+        $email = $request->input('email');
+        $password = $request->input('password');
+        $name = $request->input('name');
+        $passwordAgain = $request->input('passwordAgain');
         $now  = Carbon::now();
 
         $userRef = $this->database->getReference('users')->push([

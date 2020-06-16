@@ -10,19 +10,39 @@
                             <input type="hidden" name="_token" value="{{csrf_token()}}">
 							<div class="group-input">
 								<label for="name">User Name</label>
-								<input type="text" name="name" id="name" required/>
+								<input type="text" name="name" id="name" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" required/>
+                                @if ($errors->has('password'))
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('password') }}</strong>
+                                </span>
+                                @endif
 							</div>
                             <div class="group-input">
                                 <label for="email">Email address *</label>
-                                <input type="email" id="email" name="email">
+                                <input type="email" id="email" name="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" required autofocus>
+                                @if ($errors->has('email'))
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('email') }}</strong>
+                                </span>
+                                @endif
                             </div>
                             <div class="group-input">
                                 <label for="password">Password *</label>
-                                <input type="password" id="password" name="password">
+                                <input type="password" id="password" name="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"  required>
+                                @if ($errors->has('password'))
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('password') }}</strong>
+                                </span>
+                                @endif
                             </div>
                             <div class="group-input">
                                 <label for="con-pass">Confirm Password *</label>
-                                <input type="password" id="con-pass" name="con-pass">
+                                <input type="password" id="con-pass" name="passwordAgain"  class="form-control{{ $errors->has('passwordAgain') ? ' is-invalid' : '' }}"  required>
+                                @if ($errors->has('passwordAgain'))
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('passwordAgain') }}</strong>
+                                </span>
+                                @endif
 							</div>
 							<div class="group-input">
 								<input type="file" id="img_up" name="img_up" style="display: none"/>
