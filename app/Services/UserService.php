@@ -3,9 +3,9 @@
 namespace App\Services;
 
 use Carbon\Carbon;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\BaseController;
 
-class UserService extends Controller
+class UserService extends BaseController
 {
     public function getUserByEmail($email)
     {

@@ -6,14 +6,26 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="login-form">
                         <h2>Login</h2>
-                        <form action="#">
+                        <form method="POST" action="{{ route('signin') }}">
+                            <input type="hidden" name="_token" value="{{csrf_token()}}">
                             <div class="group-input">
                                 <label for="username">Email address *</label>
-                                <input type="email" id="email">
+                                <input type="email" id="email" name="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" value="{{ old('email') }}" required autofocus>
+                                @if ($errors->has('email'))
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('email') }}</strong>
+                                </span>
+                                @endif
                             </div>
+                            
                             <div class="group-input">
                                 <label for="pass">Password *</label>
-                                <input type="password" id="password">
+                                <input type="password" id="password" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password"  required>
+                                 @if ($errors->has('password'))
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $errors->first('password') }}</strong>
+                                </span>
+                                @endif
                             </div>
                             <div class="group-input gi-check">
                                 <div class="gi-more">

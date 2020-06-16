@@ -3,6 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Carbon\Carbon;
+use Hash;
+use Illuminate\Support\MessageBag;
+use App\Http\Requests\LoginRequest;
+use App\Services\UserService;
 
 class PageController extends BaseController
 {
@@ -45,51 +50,28 @@ class PageController extends BaseController
         $userRef = [
             'id' => array_key_first($users),
             'email' => $user['email'],
-            'name' => $user['name'],
+            'username' => $user['username'],
         ];
 
         $request->session()->put('user', $userRef);
 
-        return redirect('/');
+        return redirect()->route('HomePage');
     }
-    public function postSignUp(Request $request){
-        /*$this->validate($request,
-            [
-                'name' => 'required|min:3',
-                'email' => 'required|email|unique:users,email',
-                'password' => 'required| min:6|max:32',
-                'passwordAgain' => 'required|same:password'
-            ],
-            [
-                'name.required' => 'Bạn chưa nhập tên người dùng',
-                'name.min' => 'tên người dùng phải ít nhất 3 kí tự',
-                'email.required'=> 'Bạn chưa nhập email',
-                'email.email'=>'bạn chua nhập đúng định dạng email',
-                'email.unique'=>'Email đã tồn tại',
-                'password.required'=>'Bạn chưa nhập mật khẩu',
-                'password.min'=>'Mật khẩu phải có ít nhất 6 kí tự',
-                'password.max'=>'Mật khẩu có nhiều nhất 32 kí tự',
-                'passwordAgain.required'=>'Bạn chưa nhập lại mật khẩu',
-                'passwordAgain.same'=>'Mật khẩu chưa khớp'
+    public function postSignUp(LoginRequest $request){
+        $now  = Carbon::now();
 
-            ]);*/
-        $userRef = null;
-        $testData = [
-            'username' => $request->name,
-            'email' => $request->email,
-            'password' => bcrypt($request->password),
-            'avata'=>$request->img_up,
-        ];
-       
-         try {
-            $this->database->getReference('users')->push($testData);
-             $userRef = $this->database->getReference('users')
-                ->orderByKey()
-                ->getSnapshot();
-        } catch (Exception $exception) {
-            Log::error($exception->getMessage());
+        $userRef = $this->database->getReference('users')->push([
+                'email' => $request->email,
+                'username' =>$request->name,
+                'password' => bcrypt($request->password),
+                'avatar'=>$request->img_up,
+                'created_at' => $now,
+                'updated_at' => '',
+                'deleted_at' => '',
+                
+            ]);
+        
 
-        }
          
          return redirect()->route('HomePage');
     }

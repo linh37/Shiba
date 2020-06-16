@@ -25,7 +25,7 @@
                                 <input type="password" id="con-pass" name="con-pass">
 							</div>
 							<div class="group-input">
-								<input type="file" id="img_up" name="img_up" style="display: none">
+								<input type="file" id="img_up" name="img_up" style="display: none"/>
 							</div>
 							<div class="group-input">
 								<p id="Up_img" style="cursor: pointer;">Upload Avatar</p>
@@ -41,7 +41,7 @@
         </div>
     </div>
 
-<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../resources/js/jquery.min.js"></script>
 <script src="../resources/js/signup.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 @endsection

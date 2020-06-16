@@ -30,10 +30,13 @@ class UsersTableSeeder extends Seeder
             $now  = Carbon::now();
             $userRef = $this->database->getReference('users')->push([
                 'email' => $faker->unique()->email,
+                'username' =>$faker->unique()->username,
                 'password' => bcrypt('1234567'),
+                'avatar'=>'',
                 'created_at' => $now,
                 'updated_at' => '',
                 'deleted_at' => '',
+                
             ]);
         }
     }
