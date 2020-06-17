@@ -145,6 +145,7 @@
                                 <li><a href="{{route('signup')}}">Sign Up</a></li>
                                 <li><a href="{{route('signin')}}">Login</a></li>
                                 <li><a href="{{route('profile')}}">User Profile</a></li>
+                                <li><a href="{{route('addStore')}}">Add Store</a></li>
                             </ul>
                         </li>
                     </ul>

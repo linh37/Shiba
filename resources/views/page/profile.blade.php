@@ -79,25 +79,6 @@
                                     <hr />
                                     <button type="submit" class="site-btn register-btn edit" style="margin-top: 10px;"><span>Edit</span></button>
                                     <button type="submit" class="site-btn register-btn save_btn" style="margin-top: 10px;"><span>Save</span></button>
-                                    <!-- <div class="row">
-                                        <div class="col-sm-3 col-md-2 col-5">
-                                            <label style="font-weight:bold;">Something</label>
-                                        </div>
-                                        <div class="col-md-8 col-6">
-                                            Something
-                                        </div>
-                                    </div>
-                                    <hr />
-                                    <div class="row">
-                                        <div class="col-sm-3 col-md-2 col-5">
-                                            <label style="font-weight:bold;">Something</label>
-                                        </div>
-                                        <div class="col-md-8 col-6">
-                                            Something
-                                        </div>
-                                    </div>
-                                    <hr /> -->
-
                                 </div>
                                 <div class="tab-pane fade" id="settingPassword" role="tabpanel" aria-labelledby="settingPassword-tab">
                                     <div class="col-lg-6 offset-lg-3">

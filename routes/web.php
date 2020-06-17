@@ -49,3 +49,8 @@ Route::get('profile',[
     'as'=> 'profile',
     'uses' => 'PageController@getProfile'
 ]);
+
+Route::get('addStore',[
+    'as'=> 'addStore',
+    'uses' => 'PageController@getAddStore'
+]);
