@@ -1474,6 +1474,9 @@ ol {
 /*---------------------
   Partner Logo
 -----------------------*/
+.logo{
+	text-align: center;
+}
 
 .partner-logo {
 	background: #303030;
@@ -3777,7 +3780,7 @@ ol {
 
 .register-form form .group-input label,
 .login-form form .group-input label {
-	display: block;
+
 	font-size: 18px;
 	color: #252525;
 	margin-bottom: 13px;

@@ -81,4 +81,7 @@ class PageController extends BaseController
          return redirect()->route('HomePage');
     }
     
+    public function getProfile(){
+        return view('page.profile');
+    }
 }
