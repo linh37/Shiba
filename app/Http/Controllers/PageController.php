@@ -75,9 +75,9 @@ class PageController extends BaseController
          
          return redirect()->route('HomePage');
     }
-   public function getSearch(Request $req){
-    $restaurant = Restaurant::where('name',$req->key)
-                        -> get();
+   public function getSearch(Request $request){
+    $restaurant = $this->database->getReference('restaurant')
+                        -> getValue();
     return view('page.search', compact('restaurant'));
    }
 }
