@@ -17,7 +17,7 @@
                         <select class="language_drop" name="countries" id="countries" style="width:300px;">
                             <option value='yt' data-image="../fashi/img/flag-1.jpg" data-imagecss="flag yt"
                                 data-title="English">English</option>
-                            <option value='yu' data-image="../fashi/img/flag-4.png" data-imagecss="flag yu"
+                            <option value='yu' data-image="../fashi/img/flag-4.png"  data-imagecss="flag yu"
                                 data-title="Japanese">Japanese </option>
                         </select>
                     </div>
@@ -36,7 +36,7 @@
                     <div class="col-lg-2 col-md-2">
                         <div class="logo">
                             <a href="{{route('HomePage')}}">
-                                <img src="../fashi/img/logo_shiba.png" style="height: 90px; weight: 90px;" alt="">
+                                <img src="../fashi/img/logo_shiba.png" style="height: 50px; weight: 50px;" alt="">
                             </a>
                         </div>
                     </div>
@@ -142,12 +142,9 @@
                         <li><a href="./contact.html">Contact</a></li>
                         <li><a href="#">Pages</a>
                             <ul class="dropdown">
-                                <li><a href="./blog-details.html">Blog Details</a></li>
-                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="./check-out.html">Checkout</a></li>
-                                <li><a href="./faq.html">Faq</a></li>
                                 <li><a href="{{route('signup')}}">Sign Up</a></li>
                                 <li><a href="{{route('signin')}}">Login</a></li>
+                                <li><a href="{{route('profile')}}">User Profile</a></li>
                             </ul>
                         </li>
                     </ul>
