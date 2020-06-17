@@ -76,8 +76,8 @@ class PageController extends BaseController
          return redirect()->route('HomePage');
     }
    public function getSearch(Request $req){
-    $nhahang = Nhahang::where('name',$req->key)
+    $restaurant = Restaurant::where('name',$req->key)
                         -> get();
-    return view('page.search', compact('nhahang'));
+    return view('page.search', compact('restaurant'));
    }
 }
